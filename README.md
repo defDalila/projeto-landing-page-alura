@@ -1,7 +1,6 @@
-# Projeto HTML/CSS | Alura Plus | Landing Page 💼
+# Projeto |  HTML/CSS | Alura Plus | Landing Page 
 
 
----
 
 ## :mag: Resources
 

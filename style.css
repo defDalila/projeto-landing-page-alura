@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+    --body-color: #f9f9f9;
+    --body-bg: #00030c;
+    --emphasis-color: #ffffff;
+    --secondary-color: #167bf7;
+    --tertiary-color: #c0c0c0;
+    --primary-text-emphasis: #ec2f46;
+    --heading-color: var(--emphasis-color);
+    --font-sans-serif: "Inter";
+    --font-monospace: Monaco, Consolas, monospace;
+    --body-font-family: var(--font-sans-serif);
+    --body-font-size: 16px;
+    --body-font-weight: 400;
+    --heading-font-weight: 700;
+    --button-color: #167bf7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--body-color);
+    font-size: var(--body-font-size);
+    font-family: var(--body-font-family);
+}
+
+.heading {
+    font-family: var(--body-font-family);
+    font-weight: var(--heading-font-weight);
+    color: var(--heading-color);
+}
+
+.description {
+    color: var(--tertiary-color);
+    font-size: var(--body-font-size);
+    font-family: var(--body-font-family);
+}
+
+.grid-two-columns {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main-section {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+
+.main-section__box {
+    margin: 0 6em;
+}
+
+.main-section__title {
+
+    font-size: 1.75rem;
+}
+
+
+.main-section__image {
+    margin: 1em 0 2em 0;
+}
+
+
+.main-section__button {
+    background-color: var(--button-color);
+    color: var(--emphasis-color);
+    border-radius: 0.5rem;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.alura-button {
+    background-color: transparent;
+    border: 1px solid var(--emphasis-color);
+}
+
+.main-section__advice {
+    color: var(--tertiary-color);
+    font-size: 0.75rem;
+}
+
+.default-section {
+    align-items: center;
+    margin: 0 10em;
+    gap: 5em;
+}
+
+
+
+.default-section__image {
+    width: 80%;
+    height: auto;
+}
+
+.default-section__title {
+    font-size: 3rem;
+}
+
+.default-section__description {
+    font-size: var(--body-font-size);
+
+}
+
+.default-section__combo-button {
+    display: inline-block;
+    margin-top: 1em;
+    background-color: var(--button-color);
+    color: var(--emphasis-color);
+    border-radius: 0.5rem;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.8rem;
+}
